@@ -1,0 +1,76 @@
+1)What is JavaScript? 
+
+2)What is the difference between JavaScript and Jscript? 
+
+3)How do we add JavaScript onto a web page? 
+
+4)Is JavaScript case sensitive? 
+
+5) What are the types used in JavaScript? 
+
+6)What is the difference between "==" and "==="? 
+
+7)How to access the value of a textbox using JavaScript? 
+
+8)What are the ways of making comments in JavaScript? 
+
+9)How to create arrays in JavaScript? 
+
+10)If an array with name as "names" contain three elements, then how will you print the third element of this array? 
+
+11)What does isNaN function do? 
+
+12)What is the use of Math Object in JavaScript? 
+
+13)What do you understand by this keyword in JavaScript? 
+
+14)What does "1"+2+4 evaluate to? 
+
+15)What does 3+4+"7" evaluate to? 
+
+16)What looping structures are there in JavaScript? 
+
+17)What is an object in JavaScript, give an example? 
+
+18)How you will add function as a property in a JavaScript object? Give an example. 
+
+19)What is the difference between the 1st and 2nd statement? 
+	1st:- var myString = new String('male'); 
+	2nd:- var myStringLiteral = 'male'; 
+	
+20)What will be the output of the following statements?	
+	var myString = 'Vikas' 
+	var myStringCopy = myString;
+	var myString = null; 
+	console.log(myString, myStringCopy);
+	
+21)Consider the following statements and tell what would be the output of the logs statements?
+	var price1 = 10;
+	var price2 = 10;
+	var price3 = new Number('10');.
+	console.log(price1 === price2); 
+	console.log(price1 === price3);
+
+22)What would be the output of the following statements?
+	var object1 = { same: 'same' };
+	var object2 = { same: 'same' };
+	console.log(object1 === object2);
+	
+23)What would be the output of the following statements?
+	var object1 = { same: 'same' };
+	var object2 = object1;
+	console.log(object1 === object2);
+	
+24)Does JavaScript Support automatic type conversion, If yes give example.
+
+25)Which are the first class values in javascript ? How first class value is defined?
+
+26)What is a sparse array ?
+
+27)What is the difference between function declaration and function expression?
+
+28)write a program to print the word "tick" on the console after every 1 sec and then stop the printing after 10 sec.
+
+29)Create an obejct car with properties make, model, color and year. create car's method toString to display all its properties. All car instances should be able to access the method.
+
+30)show prototypal inheritance with example.

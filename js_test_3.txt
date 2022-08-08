@@ -1,0 +1,43 @@
+What is JavaScript?
+
+How do you add JavaScript to a web page?
+
+How do you add comments in JavaScript?
+
+Explain the difference between a local and a global variable, and how to declare each one.
+
+What are the different JavaScript data types? Give example of each.
+
+What is the difference between a value that is undefined and a value that is null?
+
+Explain the this keyword in JavaScript.
+
+Explain inheritance in JavaScript.
+
+Explain how timers works in JavaScript.
+
+Explain the different types of pop-up boxes you can create in JavaScript.
+
+Is JavaScript case sensitive?
+
+What is the difference between == and ===?
+
+What are the different boolean operators in JavaScript?
+
+What is an array? Demonstrate how you would create an array in JavaScript.
+
+What does the isNaN() function do?
+
+What kind of looping functions does JavaScript support?
+
+What kind of conditional statements does JavaScript support?
+
+How would you create a script that detects which radio button is selected, and notifies the user?
+
+What is the HTML DOM?
+
+What is the difference between window.onload and onDocumentReady?
+
+Explain closure in JavaScript.
+
+Explain how to handle errors in JavaScript.

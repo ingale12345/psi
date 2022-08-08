@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function addition() {
+        // let a = document.getElementById("no1").value;
+        // let b = document.getElementById("no2").value;
+        // let c = a + b;
+        // console.log("Addition is=" + c);
+        let num1 = window.prompt("Enter no1:");
+        let num2 = window.prompt("Enter no2:");
+
+        let c = parseInt(num1) + parseInt(num2);
+        console.log("Addition of num1 and num2 is =" + c);
+      }
+    </script>
+  </head>
+  <body>
+    Enter the No1: <input type="text" id="no1" /><br />
+    Enter the No2: <input type="text" id="no2" /><br />
+    Answer: <input type="text" id="ans" /><br />
+    <button onclick="addition()">Addition</button>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+      }
+      div#container {
+        background-color: rgb(241, 8, 121);
+        width: 300px;
+        display: flex;
+        margin-top: 100px;
+        transition: 1s;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+        border: 2px black solid;
+        margin-left: 500px;
+      }
+      div#container:hover {
+        transform: scale(1.2);
+      }
+    </style>
+    <script src="validate.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <label for="number">Enter Mobile Number:</label><br /><input
+        placeholder="e.g. 0123456789"
+        id="number"
+        type="text"
+        maxlength="11"
+        minlength="10"
+      /><br />
+      <div id="errorMsg"></div>
+      <button id="btn" onclick="validate()">Submit</button>
+    </div>
+  </body>
+</html>
